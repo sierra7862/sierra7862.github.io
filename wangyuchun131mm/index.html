@@ -1,0 +1,1185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>王雨纯 131mm 写真-作品图集与观看指南</title>
+<meta name="description" content="王雨纯 131mm 写真图集整理，收录 131mm 主题套图的发布记录、拍摄风格解析、观看体验与常见问题，按日期与造型分类，附用户评论与相关推荐入口。">
+<meta name="keywords" content="王雨纯 131mm 写真">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232b1d3a'/%3E%3Ccircle cx='32' cy='26' r='11' fill='none' stroke='%23e8b5c8' stroke-width='3'/%3E%3Cpath d='M18 52c4-9 10-13 14-13s10 4 14 13' fill='none' stroke='%23e8b5c8' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#241c2c;
+  --ink-soft:#584c66;
+  --paper:#fbf8f5;
+  --card:#ffffff;
+  --line:#e7dfe2;
+  --brand:#7b2d4e;
+  --brand-deep:#4d1b31;
+  --accent:#c98b4b;
+  --accent-soft:#f6e7d6;
+  --pink-soft:#f3e2e8;
+  --mint:#dfeee8;
+  --radius-s:6px;
+  --radius-m:12px;
+  --radius-l:20px;
+  --shadow-s:0 1px 2px rgba(36,28,44,.06),0 4px 12px rgba(36,28,44,.05);
+  --shadow-m:0 6px 22px rgba(36,28,44,.10);
+  --space-1:6px;
+  --space-2:10px;
+  --space-3:16px;
+  --space-4:24px;
+  --space-5:36px;
+  --space-6:56px;
+  --fs-xs:12px;
+  --fs-s:13.5px;
+  --fs-m:15px;
+  --fs-l:18px;
+  --fs-xl:24px;
+  --fs-2xl:32px;
+  --fs-3xl:44px;
+  --font:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  --sticky-h:104px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:var(--sticky-h);}
+body{
+  margin:0;
+  font-family:var(--font);
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.75;
+  font-size:var(--fs-m);
+  -webkit-text-size-adjust:100%;
+}
+img{max-width:100%;display:block;}
+a{color:var(--brand);text-decoration:none;}
+a:hover{text-decoration:underline;}
+h1,h2,h3,h4{line-height:1.35;margin:0;}
+p{margin:0 0 var(--space-3);}
+ul,ol{margin:0 0 var(--space-3);padding-left:1.3em;}
+li{margin-bottom:6px;}
+button{font-family:inherit;}
+
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px;}
+
+/* 公告条 + 页头 吸顶容器 */
+.sticky-top{position:sticky;top:0;z-index:60;}
+.announce{
+  background:linear-gradient(90deg,var(--brand-deep),var(--brand));
+  color:#fceef3;
+  font-size:var(--fs-s);
+  letter-spacing:.02em;
+}
+.announce .wrap{
+  display:flex;align-items:center;gap:12px;
+  padding:7px 20px;flex-wrap:wrap;
+}
+.announce b{color:#ffd9a8;font-weight:600;}
+.announce .dot{width:6px;height:6px;border-radius:50%;background:#ffd9a8;flex:none;}
+.announce a{color:#fff;text-decoration:underline;text-underline-offset:3px;}
+
+.header{
+  background:rgba(251,248,245,.96);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+  box-shadow:var(--shadow-s);
+}
+.header .wrap{
+  display:flex;align-items:center;gap:var(--space-4);
+  padding:12px 20px;flex-wrap:wrap;
+}
+.brand{display:flex;align-items:center;gap:10px;flex:none;}
+.brand svg{width:40px;height:40px;flex:none;}
+.brand .brand-txt{display:flex;flex-direction:column;line-height:1.25;}
+.brand .brand-name{font-size:var(--fs-l);font-weight:700;letter-spacing:.03em;color:var(--brand-deep);}
+.brand .brand-sub{font-size:11px;color:var(--ink-soft);letter-spacing:.14em;}
+
+.nav-main{display:flex;gap:2px;flex-wrap:wrap;flex:1;min-width:0;}
+.nav-main a{
+  font-size:var(--fs-s);color:var(--ink-soft);
+  padding:7px 11px;border-radius:var(--radius-s);
+  white-space:nowrap;
+}
+.nav-main a:hover,.nav-main a:focus-visible{background:var(--pink-soft);color:var(--brand-deep);text-decoration:none;}
+.nav-main a.is-active{background:var(--brand);color:#fff;}
+
+.head-tools{display:flex;align-items:center;gap:8px;flex:none;}
+.search-box{position:relative;}
+.search-box input{
+  width:170px;padding:7px 10px;font-size:var(--fs-s);
+  border:1px solid var(--line);border-radius:20px;background:#fff;color:var(--ink);
+}
+.search-box input:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent);}
+.search-feedback{
+  position:absolute;top:calc(100% + 6px);right:0;width:250px;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);
+  box-shadow:var(--shadow-m);padding:10px 12px;font-size:var(--fs-s);
+  display:none;
+}
+.search-feedback.show{display:block;}
+.search-feedback strong{color:var(--brand-deep);}
+.menu-btn{
+  display:none;align-items:center;gap:6px;
+  background:#fff;border:1px solid var(--line);border-radius:20px;
+  padding:7px 12px;font-size:var(--fs-s);color:var(--ink);cursor:pointer;
+}
+.menu-btn:focus-visible{outline:2px solid var(--brand);outline-offset:2px;}
+
+/* 首屏 */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(circle at 82% 12%,rgba(201,139,75,.18),transparent 46%),
+    radial-gradient(circle at 12% 82%,rgba(123,45,78,.14),transparent 52%),
+    linear-gradient(160deg,#fdf9f6 0%,#f7ecf0 58%,#f5ecdf 100%);
+  border-bottom:1px solid var(--line);
+}
+.hero .wrap{
+  display:grid;grid-template-columns:1.15fr .85fr;gap:var(--space-5);
+  align-items:center;padding-top:var(--space-6);padding-bottom:var(--space-6);
+}
+.hero-kicker{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:var(--fs-xs);letter-spacing:.2em;color:var(--brand);
+  background:#fff;border:1px solid var(--pink-soft);border-radius:20px;
+  padding:4px 12px;margin-bottom:var(--space-3);
+}
+.hero-kicker span{width:5px;height:5px;border-radius:50%;background:var(--accent);}
+.hero h1{
+  font-size:var(--fs-3xl);letter-spacing:.02em;color:var(--brand-deep);
+  margin-bottom:var(--space-3);
+}
+.hero h1 em{font-style:normal;color:var(--accent);}
+.hero-lead{font-size:var(--fs-l);color:var(--ink-soft);max-width:31em;line-height:1.8;}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:var(--space-4);}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:10px 20px;border-radius:24px;font-size:var(--fs-m);font-weight:600;
+  border:1px solid transparent;cursor:pointer;
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.btn-primary{background:var(--brand);color:#fff;}
+.btn-primary:hover{background:var(--brand-deep);text-decoration:none;transform:translateY(-2px);box-shadow:var(--shadow-m);}
+.btn-ghost{background:#fff;color:var(--brand-deep);border-color:var(--line);}
+.btn-ghost:hover{text-decoration:none;transform:translateY(-2px);box-shadow:var(--shadow-s);}
+.hero-facts{display:flex;gap:var(--space-4);flex-wrap:wrap;margin-top:var(--space-4);}
+.hero-facts div{border-left:2px solid var(--accent);padding-left:10px;}
+.hero-facts b{display:block;font-size:var(--fs-l);color:var(--brand-deep);}
+.hero-facts span{font-size:var(--fs-xs);color:var(--ink-soft);letter-spacing:.06em;}
+
+.hero-art{position:relative;min-height:320px;}
+.hero-art-inner{
+  position:relative;height:100%;min-height:320px;
+  border-radius:var(--radius-l);overflow:hidden;
+  background:linear-gradient(145deg,#33243f,#5c2a45 55%,#8a4a5e);
+  box-shadow:var(--shadow-m);
+}
+.hero-art-inner svg{width:100%;height:100%;display:block;}
+.hero-badge{
+  position:absolute;left:18px;bottom:18px;
+  background:rgba(255,251,248,.93);border-radius:var(--radius-m);
+  padding:10px 14px;font-size:var(--fs-xs);color:var(--brand-deep);
+  box-shadow:var(--shadow-s);line-height:1.6;
+}
+.hero-badge b{display:block;font-size:var(--fs-s);letter-spacing:.05em;}
+
+/* 主内容三栏 */
+.layout{
+  display:grid;
+  grid-template-columns:220px minmax(0,1fr) 270px;
+  gap:var(--space-4);
+  padding-top:var(--space-5);
+  padding-bottom:var(--space-6);
+  align-items:start;
+}
+.side-l,.side-r{position:sticky;top:calc(var(--sticky-h) + 16px);}
+.panel{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);
+  box-shadow:var(--shadow-s);padding:var(--space-3);
+  margin-bottom:var(--space-3);
+}
+.panel h3{
+  font-size:var(--fs-s);letter-spacing:.12em;color:var(--ink-soft);
+  margin-bottom:var(--space-2);font-weight:600;
+}
+.side-nav{list-style:none;margin:0;padding:0;}
+.side-nav li{margin:0;}
+.side-nav a{
+  display:block;font-size:var(--fs-s);color:var(--ink-soft);
+  padding:7px 10px;border-radius:var(--radius-s);border-left:2px solid transparent;
+}
+.side-nav a:hover{background:var(--pink-soft);text-decoration:none;}
+.side-nav a.active{background:var(--pink-soft);color:var(--brand-deep);border-left-color:var(--brand);font-weight:600;}
+
+.side-tags{display:flex;flex-wrap:wrap;gap:6px;}
+.side-tags a{
+  font-size:var(--fs-xs);background:var(--accent-soft);color:#7a4a1c;
+  padding:3px 9px;border-radius:14px;
+}
+.side-tags a:hover{background:var(--accent);color:#fff;text-decoration:none;}
+
+.main{min-width:0;}
+.section{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);
+  box-shadow:var(--shadow-s);padding:var(--space-4);margin-bottom:var(--space-4);
+}
+.section-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:var(--space-3);}
+.section-head h2{font-size:var(--fs-xl);color:var(--brand-deep);letter-spacing:.01em;}
+.section-head .tag{
+  font-size:var(--fs-xs);color:var(--brand);background:var(--pink-soft);
+  padding:2px 10px;border-radius:12px;letter-spacing:.06em;
+}
+.section-intro{font-size:var(--fs-s);color:var(--ink-soft);margin-bottom:var(--space-3);max-width:44em;}
+
+/* 概览数据条 */
+.overview-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:var(--space-3);
+}
+.overview-grid div{
+  background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-s);
+  padding:12px;text-align:center;
+}
+.overview-grid b{display:block;font-size:var(--fs-xl);color:var(--brand);}
+.overview-grid span{font-size:var(--fs-xs);color:var(--ink-soft);}
+.type-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;}
+.type-list div{
+  border:1px solid var(--line);border-radius:var(--radius-s);padding:10px 12px;
+  font-size:var(--fs-s);background:#fffdfb;
+}
+.type-list b{color:var(--brand-deep);}
+.type-list em{font-style:normal;color:var(--ink-soft);font-size:var(--fs-xs);display:block;margin-top:2px;}
+
+/* 精选卡片网格 */
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.card{
+  border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;
+  background:#fff;display:flex;flex-direction:column;
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-m);}
+.card img{width:100%;height:140px;object-fit:cover;}
+.card-body{padding:12px 13px;flex:1;display:flex;flex-direction:column;}
+.card-body h3{font-size:var(--fs-m);color:var(--brand-deep);margin-bottom:6px;}
+.card-body p{font-size:var(--fs-s);color:var(--ink-soft);margin-bottom:8px;flex:1;}
+.card-meta{font-size:var(--fs-xs);color:#8a7d93;display:flex;justify-content:space-between;gap:8px;}
+
+/* 最新更新紧凑列表 */
+.updates{list-style:none;padding:0;margin:0;}
+.updates li{
+  display:grid;grid-template-columns:86px 1fr auto;gap:12px;
+  padding:10px 0;border-bottom:1px dashed var(--line);font-size:var(--fs-s);
+  align-items:baseline;
+}
+.updates li:last-child{border-bottom:0;}
+.updates time{color:var(--brand);font-variant-numeric:tabular-nums;font-size:var(--fs-xs);}
+.updates .u-new{background:var(--accent);color:#fff;font-size:10px;padding:1px 7px;border-radius:10px;flex:none;}
+
+/* 分类入口标签索引 */
+.channel-index{display:flex;flex-wrap:wrap;gap:8px;}
+.channel-index a{
+  border:1px solid var(--line);border-radius:20px;padding:6px 14px;
+  font-size:var(--fs-s);color:var(--ink-soft);background:var(--paper);
+}
+.channel-index a:hover{border-color:var(--brand);color:var(--brand-deep);text-decoration:none;background:var(--pink-soft);}
+.channel-index a b{color:var(--brand);font-weight:600;margin-left:4px;font-size:var(--fs-xs);}
+
+/* 深度解析 */
+.deep h3{
+  font-size:var(--fs-l);color:var(--brand-deep);margin:var(--space-4) 0 var(--space-2);
+  padding-left:11px;border-left:3px solid var(--accent);
+}
+.deep h3:first-of-type{margin-top:0;}
+.deep p{color:#3b3244;}
+.deep blockquote{
+  margin:var(--space-3) 0;padding:12px 16px;background:var(--pink-soft);
+  border-radius:var(--radius-s);border-left:3px solid var(--brand);
+  font-size:var(--fs-s);color:var(--brand-deep);
+}
+.deep blockquote cite{display:block;font-style:normal;font-size:var(--fs-xs);color:var(--ink-soft);margin-top:4px;}
+.data-table{width:100%;border-collapse:collapse;font-size:var(--fs-s);margin:var(--space-3) 0;}
+.data-table th,.data-table td{border:1px solid var(--line);padding:8px 10px;text-align:left;}
+.data-table th{background:var(--paper);color:var(--brand-deep);font-weight:600;}
+.data-table tr:nth-child(even) td{background:#fdfbf9;}
+
+/* 体验指南 编号步骤 */
+.steps{list-style:none;padding:0;margin:0;counter-reset:st;}
+.steps li{
+  position:relative;padding:0 0 var(--space-3) 46px;counter-increment:st;
+  font-size:var(--fs-s);color:var(--ink-soft);
+}
+.steps li::before{
+  content:counter(st);
+  position:absolute;left:0;top:-2px;width:30px;height:30px;border-radius:50%;
+  background:var(--brand);color:#fff;font-size:var(--fs-s);font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+}
+.steps li b{color:var(--brand-deep);display:block;font-size:var(--fs-m);margin-bottom:2px;}
+
+/* 对照面板 */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.compare > div{border-radius:var(--radius-m);padding:14px;font-size:var(--fs-s);}
+.compare .ok{background:var(--mint);border:1px solid #bcd9cf;}
+.compare .no{background:#fbeeee;border:1px solid #eccfcf;}
+.compare h4{font-size:var(--fs-m);margin-bottom:8px;color:var(--brand-deep);}
+.compare ul{margin:0;padding-left:1.1em;}
+
+/* FAQ */
+details{
+  border:1px solid var(--line);border-radius:var(--radius-s);
+  padding:10px 14px;margin-bottom:8px;background:#fffdfb;
+}
+details[open]{border-color:var(--brand);background:#fff;}
+summary{
+  cursor:pointer;font-weight:600;color:var(--brand-deep);font-size:var(--fs-s);
+  list-style:none;display:flex;justify-content:space-between;gap:10px;align-items:baseline;
+}
+summary::-webkit-details-marker{display:none;}
+summary::after{content:"＋";color:var(--accent);font-weight:400;flex:none;}
+details[open] summary::after{content:"－";}
+details p{font-size:var(--fs-s);color:var(--ink-soft);margin:8px 0 0;}
+
+/* 评论 */
+.comment{border-bottom:1px dashed var(--line);padding:12px 0;font-size:var(--fs-s);}
+.comment:last-child{border-bottom:0;}
+.comment-head{display:flex;align-items:center;gap:10px;margin-bottom:4px;flex-wrap:wrap;}
+.avatar{
+  width:28px;height:28px;border-radius:50%;flex:none;
+  background:var(--brand);color:#fff;font-size:var(--fs-xs);
+  display:flex;align-items:center;justify-content:center;font-weight:700;
+}
+.comment-head b{color:var(--brand-deep);font-size:var(--fs-s);}
+.comment-head time{color:#948a9c;font-size:var(--fs-xs);}
+.comment p{color:#43394c;margin:0;}
+
+/* 相关资讯双栏 */
+.news-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.news-item{font-size:var(--fs-s);border-left:2px solid var(--accent);padding-left:10px;}
+.news-item time{display:block;font-size:var(--fs-xs);color:#8a7d93;margin-bottom:2px;}
+.news-item a{color:var(--brand-deep);font-weight:600;}
+.news-item p{margin:4px 0 0;color:var(--ink-soft);font-size:var(--fs-xs);}
+
+/* 时间线 */
+.timeline{list-style:none;padding:0;margin:0;border-left:2px solid var(--pink-soft);}
+.timeline li{position:relative;padding:0 0 var(--space-3) 20px;font-size:var(--fs-s);}
+.timeline li::before{
+  content:"";position:absolute;left:-6px;top:7px;width:10px;height:10px;border-radius:50%;
+  background:var(--brand);border:2px solid #fff;
+}
+.timeline time{color:var(--brand);font-size:var(--fs-xs);display:block;}
+.timeline b{color:var(--brand-deep);}
+
+/* 引语卡 */
+.quote-card{
+  background:linear-gradient(150deg,#33243f,#5c2a45);color:#f6e6ec;
+  border-radius:var(--radius-m);padding:var(--space-4);font-size:var(--fs-m);
+  position:relative;overflow:hidden;
+}
+.quote-card p{color:#f6e6ec;}
+.quote-card cite{display:block;margin-top:10px;font-style:normal;font-size:var(--fs-xs);color:#e8b5c8;}
+
+/* 相关推荐 标签 */
+.reco-tags{display:flex;flex-wrap:wrap;gap:8px;}
+.reco-tags a{
+  font-size:var(--fs-s);border:1px solid var(--line);border-radius:6px;
+  padding:6px 12px;background:#fff;color:var(--ink-soft);
+}
+.reco-tags a:hover{border-color:var(--brand);color:var(--brand);background:var(--pink-soft);text-decoration:none;}
+
+/* 榜单 */
+.rank{list-style:none;padding:0;margin:0;counter-reset:rk;}
+.rank li{
+  display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;
+  padding:9px 0;border-bottom:1px dashed var(--line);font-size:var(--fs-s);
+  counter-increment:rk;
+}
+.rank li:last-child{border-bottom:0;}
+.rank li::before{
+  content:counter(rk);font-weight:700;color:#fff;background:var(--brand);
+  width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:var(--fs-xs);
+}
+.rank li:nth-child(1)::before{background:var(--accent);}
+.rank .r-name{color:var(--brand-deep);font-weight:600;}
+.rank .r-score{font-size:var(--fs-xs);color:#8a7d93;}
+
+.back-top{
+  position:fixed;right:20px;bottom:24px;z-index:70;
+  width:44px;height:44px;border-radius:50%;border:1px solid var(--line);
+  background:#fff;color:var(--brand);font-size:var(--fs-l);cursor:pointer;
+  box-shadow:var(--shadow-m);display:none;align-items:center;justify-content:center;
+}
+.back-top.show{display:flex;}
+.back-top:focus-visible{outline:2px solid var(--brand);outline-offset:2px;}
+
+/* 页尾 */
+.footer{background:#2b1d3a;color:#cbbfd4;padding:var(--space-5) 0 var(--space-4);font-size:var(--fs-s);}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:var(--space-4);}
+.footer h4{color:#fff;font-size:var(--fs-s);letter-spacing:.1em;margin-bottom:12px;}
+.footer ul{list-style:none;padding:0;margin:0;}
+.footer li{margin-bottom:6px;}
+.footer a{color:#cbbfd4;font-size:var(--fs-s);}
+.footer a:hover{color:#fff;}
+.footer .f-brand{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+.footer .f-brand svg{width:34px;height:34px;}
+.footer .f-brand strong{color:#fff;font-size:var(--fs-l);letter-spacing:.03em;}
+.footer .f-note{font-size:var(--fs-xs);color:#9d8fa8;margin-top:12px;line-height:1.7;}
+.footer-bottom{border-top:1px solid #43324f;margin-top:var(--space-4);padding-top:var(--space-3);font-size:var(--fs-xs);color:#9d8fa8;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+
+@media (max-width:1020px){
+  .layout{grid-template-columns:minmax(0,1fr) 270px;}
+  .side-l{position:static;grid-column:1 / -1;order:3;}
+  .side-l .panel{margin-bottom:0;}
+  .side-nav{display:flex;flex-wrap:wrap;gap:4px;}
+  .side-nav a{border-left:0;border:1px solid var(--line);padding:5px 10px;}
+  .side-nav a.active{border-color:var(--brand);}
+  .hero .wrap{grid-template-columns:1fr;}
+  .hero-art{min-height:260px;}
+  .hero h1{font-size:var(--fs-2xl);}
+}
+@media (max-width:760px){
+  :root{--sticky-h:150px;}
+  .layout{grid-template-columns:1fr;padding-top:var(--space-4);}
+  .side-r{position:static;order:2;}
+  .main{order:1;}
+  .side-l{order:3;}
+  .nav-main{
+    display:none;width:100%;order:5;flex-direction:column;
+    border-top:1px solid var(--line);padding-top:8px;margin-top:4px;
+  }
+  .nav-main.open{display:flex;}
+  .nav-main a{padding:9px 10px;}
+  .menu-btn{display:inline-flex;}
+  .header .wrap{gap:10px;padding:10px 16px;}
+  .head-tools{width:100%;justify-content:space-between;order:4;}
+  .search-box{flex:1;}
+  .search-box input{width:100%;}
+  .search-feedback{left:0;right:auto;width:100%;}
+  .overview-grid{grid-template-columns:repeat(2,1fr);}
+  .card-grid{grid-template-columns:1fr;}
+  .type-list{grid-template-columns:1fr;}
+  .compare{grid-template-columns:1fr;}
+  .news-grid{grid-template-columns:1fr;}
+  .updates li{grid-template-columns:76px 1fr;}
+  .updates li .u-new{grid-column:2;justify-self:start;margin-top:2px;}
+  .hero h1{font-size:26px;}
+  .hero-facts{gap:16px;}
+  .footer-grid{grid-template-columns:1fr 1fr;}
+  .section{padding:var(--space-3);}
+  .back-top{right:12px;bottom:14px;}
+}
+@media (max-width:380px){
+  .hero h1{font-size:23px;}
+  .wrap{padding:0 14px;}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  *{animation:none!important;transition:none!important;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="sticky-top">
+  <div class="announce">
+    <div class="wrap">
+      <span class="dot" aria-hidden="true"></span>
+      <span><b>王雨纯 131mm 写真</b> · 11月6日上线「<a href="/#latest">秋日窗棂 131mm 第二组</a>」，共 38 张；11月3日补档旧版第 4 组水印修正版。</span>
+      <a href="/#latest">查看更新记录</a>
+    </div>
+  </div>
+  <header class="header">
+    <div class="wrap">
+      <a class="brand" href="/#top" aria-label="王雨纯 131mm 写真 首页">
+        <svg viewBox="0 0 64 64" role="img" aria-label="品牌图形：圆框光圈与肩线">
+          <rect width="64" height="64" rx="14" fill="#4d1b31"/>
+          <circle cx="32" cy="25" r="11" fill="none" stroke="#e8b5c8" stroke-width="2.6"/>
+          <circle cx="32" cy="25" r="5.5" fill="none" stroke="#c98b4b" stroke-width="2"/>
+          <path d="M17 53c4.4-9.6 10.4-14 15-14s10.6 4.4 15 14" fill="none" stroke="#e8b5c8" stroke-width="2.6" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-txt">
+          <span class="brand-name">王雨纯 131mm 写真</span>
+          <span class="brand-sub">图集档案 · 造型笔记</span>
+        </span>
+      </a>
+      <nav class="nav-main" id="mainNav" aria-label="主题导航">
+        <a href="/#overview">领域概览</a>
+        <a href="/#featured">精选图集</a>
+        <a href="/#latest">最新更新</a>
+        <a href="/#channels">分类入口</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">观看指南</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#comments">读者评论</a>
+      </nav>
+      <div class="head-tools">
+        <div class="search-box">
+          <input type="search" id="siteSearch" placeholder="搜索图集 / 造型 / 日期" aria-label="站内搜索">
+          <div class="search-feedback" id="searchFeedback" role="status" aria-live="polite"></div>
+        </div>
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">菜单</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <span class="hero-kicker"><span aria-hidden="true"></span>131mm 主题写真档案 · 更新至 11 月 6 日</span>
+        <h1>王雨纯 131mm 写真</h1>
+        <p class="hero-lead">把 131mm 焦段下的人像套图整理成可查的档案：哪一组用了侧逆光、哪一版修过水印、哪几张是横构图，按发布日期和造型逐条标注，方便比对与回看。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/#featured">进入精选图集</a>
+          <a class="btn btn-ghost" href="/#deep">读拍摄解析</a>
+        </div>
+        <div class="hero-facts">
+          <div><b>9 组</b><span>已归档套图</span></div>
+          <div><b>412 张</b><span>成片计数</span></div>
+          <div><b>131mm</b><span>主用焦段</span></div>
+          <div><b>11.06</b><span>最近发布</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-art-inner">
+          <svg viewBox="0 0 520 380" preserveAspectRatio="xMidYMid slice" role="img" aria-label="原创视觉：窗棂光影与镜头焦段刻度">
+            <defs>
+              <linearGradient id="gsky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#8a4a5e"/>
+                <stop offset="1" stop-color="#3a2746"/>
+              </linearGradient>
+              <linearGradient id="glight" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f6d8b8" stop-opacity=".85"/>
+                <stop offset="1" stop-color="#f6d8b8" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <rect width="520" height="380" fill="url(#gsky)"/>
+            <path d="M60 0 L210 0 L70 380 L0 380 Z" fill="url(#glight)"/>
+            <g stroke="#e8b5c8" stroke-opacity=".5" stroke-width="2">
+              <path d="M150 0 V380"/>
+              <path d="M240 0 V380"/>
+              <path d="M330 0 V380"/>
+              <path d="M0 120 H520"/>
+              <path d="M0 230 H520"/>
+            </g>
+            <circle cx="360" cy="150" r="86" fill="none" stroke="#f2e4d2" stroke-width="3" stroke-opacity=".85"/>
+            <circle cx="360" cy="150" r="60" fill="none" stroke="#c98b4b" stroke-width="2" stroke-opacity=".9"/>
+            <circle cx="360" cy="150" r="20" fill="#f2e4d2" fill-opacity=".22"/>
+            <g stroke="#f2e4d2" stroke-opacity=".7" stroke-width="2">
+              <path d="M360 40 V62"/><path d="M360 238 V260"/>
+              <path d="M250 150 H272"/><path d="M448 150 H470"/>
+            </g>
+            <text x="352" y="292" fill="#f2e4d2" font-size="15" letter-spacing="3" font-family="sans-serif">131mm</text>
+            <path d="M120 330 q44-24 84 0 t84 0" fill="none" stroke="#e8b5c8" stroke-width="2" stroke-opacity=".6"/>
+          </svg>
+          <div class="hero-badge">
+            <b>本期焦点：秋日窗棂 · 第二组</b>
+            侧逆光为主，横构图 14 张，竖构图 24 张
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap layout">
+    <aside class="side-l" aria-label="栏目索引">
+      <div class="panel">
+        <h3>栏目导航</h3>
+        <ul class="side-nav" id="sideNav">
+          <li><a href="/#overview">领域概览</a></li>
+          <li><a href="/#featured">精选图集</a></li>
+          <li><a href="/#latest">更新记录</a></li>
+          <li><a href="/#channels">分类入口</a></li>
+          <li><a href="/#deep">拍摄解析</a></li>
+          <li><a href="/#guide">观看指南</a></li>
+          <li><a href="/#rank">套图榜单</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#comments">读者评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#reco">相关推荐</a></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>热门索引</h3>
+        <div class="side-tags">
+          <a href="/#featured">窗棂侧逆光</a>
+          <a href="/#featured">灰蓝针织衫</a>
+          <a href="/#latest">水印修正版</a>
+          <a href="/#channels">胶片颗粒调色</a>
+          <a href="/#deep">中长焦压缩感</a>
+          <a href="/#guide">套图编号规则</a>
+        </div>
+      </div>
+    </aside>
+
+    <div class="main">
+
+      <section class="section" id="overview">
+        <div class="section-head">
+          <h2>领域概览：131mm 人像写真的拍摄取向</h2>
+          <span class="tag">基础认知</span>
+        </div>
+        <p class="section-intro">这批套图的共性是焦段集中在 131mm 附近，构图以半身和七分身为主，背景压缩明显。下面拆成焦段、题材、调色、成片量四项看，方便判断自己适合先看哪一组。</p>
+        <div class="overview-grid">
+          <div><b>131mm</b><span>等效焦距区间</span></div>
+          <div><b>412 张</b><span>九组成片合计</span></div>
+          <div><b>3 类</b><span>棚拍 / 窗光 / 街拍</span></div>
+          <div><b>2 版</b><span>原版与水印修正版</span></div>
+        </div>
+        <div class="type-list">
+          <div><b>窗光室内组</b><em>10 月 24 日、11 月 6 日各一组，侧逆光与白纱帘是主要光源</em></div>
+          <div><b>棚拍纯色背景组</b><em>灰、米、深绿三色背景，主光偏柔，适合看发丝边缘</em></div>
+          <div><b>街拍外景组</b><em>10 月 18 日雨后拍摄，路面反光被当作第二光源</em></div>
+          <div><b>短焦段对比组</b><em>同造型另拍 85mm，用于比对压缩感差异，共 26 张</em></div>
+        </div>
+      </section>
+
+      <section class="section" id="featured">
+        <div class="section-head">
+          <h2>精选内容推荐</h2>
+          <span class="tag">编辑筛选</span>
+        </div>
+        <p class="section-intro">从九组里挑出完成度较高的四组，按主题分列。每组标注张数、拍摄日期和一句可核对的画面描述。</p>
+        <div class="card-grid">
+          <article class="card">
+            <img src="https://picsum.photos/seed/wangyuchun-window01/420/280" width="420" height="280" loading="lazy" alt="窗棂侧逆光下的半身人像，白纱帘透光">
+            <div class="card-body">
+              <h3>秋日窗棂侧逆光组</h3>
+              <p>11 月 6 日发布，38 张。白纱帘挂在左侧，逆光从右后方进来，发丝边缘有一圈暖色轮廓光。</p>
+              <div class="card-meta"><span>38 张 · 横 14 竖 24</span><span>11.06</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/wangyuchun-knit02/420/280" width="420" height="280" loading="lazy" alt="灰蓝针织衫造型的中景人像，米色背景">
+            <div class="card-body">
+              <h3>灰蓝针织衫中景组</h3>
+              <p>10 月 29 日发布，52 张。米色无缝背景，主光在左上 45 度，针织纹理在 131mm 压缩下没有糊成一片。</p>
+              <div class="card-meta"><span>52 张 · 棚拍</span><span>10.29</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/wangyuchun-rain03/420/280" width="420" height="280" loading="lazy" alt="雨后街道反光地面上的行人视角人像">
+            <div class="card-body">
+              <h3>雨后街拍反光地面组</h3>
+              <p>10 月 18 日发布，46 张。路面湿透，霓虹倒影落在小腿位置，人物与背景距离约 8 米，压缩感最明显的一组。</p>
+              <div class="card-meta"><span>46 张 · 外景</span><span>10.18</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/wangyuchun-darkgreen04/420/280" width="420" height="280" loading="lazy" alt="深绿色背景前的七分身人像，轮廓光在肩部">
+            <div class="card-body">
+              <h3>深绿背景轮廓光组</h3>
+              <p>10 月 12 日发布，44 张。两盏灯分别从左右后侧打轮廓，正面只留反光板补光，肩线被勾得很清楚。</p>
+              <div class="card-meta"><span>44 张 · 棚拍</span><span>10.12</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/wangyuchun-whiteface05/420/280" width="420" height="280" loading="lazy" alt="白墙前景特写，面部占画面一半以上">
+            <div class="card-body">
+              <h3>白墙前景特写组</h3>
+              <p>10 月 8 日发布，36 张。最近对焦距离被压到 1 米左右，面部占画面比例大，适合看镜头畸变控制。</p>
+              <div class="card-meta"><span>36 张 · 特写</span><span>10.08</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/wangyuchun-lens06/420/280" width="420" height="280" loading="lazy" alt="同一造型下 85mm 与 131mm 焦段对比的两联画面">
+            <div class="card-body">
+              <h3>85mm 与 131mm 对照组</h3>
+              <p>10 月 31 日整理，26 张。同机位同造型各拍一张，标出背景压缩差异，方便判断焦段带来的脸型变化。</p>
+              <div class="card-meta"><span>26 张 · 对比</span><span>10.31</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="latest">
+        <div class="section-head">
+          <h2>最新更新记录</h2>
+          <span class="tag">按日归档</span>
+        </div>
+        <p class="section-intro">只记发布与修订动作，不重复图集内容。每条可点到对应图集锚点。</p>
+        <ul class="updates">
+          <li><time datetime="2026-11-06">11 月 6 日</time><span>「秋日窗棂 · 第二组」上线，38 张，含 3 张花絮。<span class="u-new">新</span></span><span>38 张</span></li>
+          <li><time datetime="2026-11-03">11 月 3 日</time><span>旧版第 4 组水印位置修正，重新压图 44 张，文件名改为 <code>131mm-s04-r2</code>。</span><span>修正</span></li>
+          <li><time datetime="2026-11-01">11 月 1 日</time><span>发布「灰蓝针织衫 · 补拍」，52 张，补了两段背影走位。</span><span>52 张</span></li>
+          <li><time datetime="2026-10-31">10 月 31 日</time><span>整理 85mm 与 131mm 同机位对照 26 张，附焦段说明。</span><span>26 张</span></li>
+          <li><time datetime="2026-10-29">10 月 29 日</time><span>灰蓝针织衫主组上线，注释补上灯光位置图（左 45° 主光）。</span><span>52 张</span></li>
+          <li><time datetime="2026-10-24">10 月 24 日</time><span>「秋日窗棂 · 第一组」发布，41 张，含一张过曝废片保留作对照。</span><span>41 张</span></li>
+          <li><time datetime="2026-10-18">10 月 18 日</time><span>雨后街拍组上线，46 张，湿地面反光说明写入体验指南。</span><span>46 张</span></li>
+        </ul>
+      </section>
+
+      <section class="section" id="channels">
+        <div class="section-head">
+          <h2>分类入口</h2>
+          <span class="tag">频道索引</span>
+        </div>
+        <p class="section-intro">按拍摄场景、造型、调色和观看需求分成十类，点开即进入对应条目集合。数字为该类已归档张数。</p>
+        <div class="channel-index">
+          <a href="/#featured">窗棂侧逆光<b>79</b></a>
+          <a href="/#featured">灰蓝针织衫<b>52</b></a>
+          <a href="/#featured">深绿背景轮廓光<b>44</b></a>
+          <a href="/#featured">白墙前景特写<b>36</b></a>
+          <a href="/#latest">水印修正版<b>44</b></a>
+          <a href="/#deep">中长焦压缩感对比<b>26</b></a>
+          <a href="/#channels">胶片颗粒调色<b>61</b></a>
+          <a href="/#channels">雨后街拍<b>46</b></a>
+          <a href="/#guide">套图编号规则<b>9 组</b></a>
+          <a href="/#guide">花絮与废片<b>17</b></a>
+        </div>
+      </section>
+
+      <section class="section deep" id="deep">
+        <div class="section-head">
+          <h2>深度解析：131mm 在这批套图里到底改变了什么</h2>
+          <span class="tag">主体阅读</span>
+        </div>
+        <p>131mm 不是这批图最显眼的变量，最显眼的是光线安排。但焦段决定了光线落在哪——同样的侧逆光，85mm 拍出来背景还在画面里说话，131mm 拍出来背景只剩色块。这个差别可以用 10 月 31 日那组对照图逐格核对。</p>
+
+        <h3>焦段判断一：131mm 压缩后，脸部比例变化有可量化区间</h3>
+        <p>10 月 31 日对照组的拍摄记录写得很细：同一机位、同一造型、模特站位距离镜头 3.2 米，先拍 85mm 再换 131mm，构图以眼平线对齐。对比两张半身像，131mm 那张的肩宽在画面中占 58%，85mm 那张占 66%；鼻尖到耳垂的投影长度前者约短 12%。这不是玄学，是入瞳距离和视角共同作用的结果。</p>
+        <table class="data-table">
+          <caption style="caption-side:bottom;font-size:12px;color:#8a7d93;text-align:left;padding-top:6px;">数据来源：10 月 31 日对照组的拍摄参数备注，画面占比按画幅短边测量。</caption>
+          <thead><tr><th>项目</th><th>85mm 组</th><th>131mm 组</th></tr></thead>
+          <tbody>
+            <tr><td>拍摄距离</td><td>3.2 米</td><td>3.2 米</td></tr>
+            <tr><td>肩宽占画幅</td><td>66%</td><td>58%</td></tr>
+            <tr><td>背景可见范围</td><td>约 5.4 米</td><td>约 3.1 米</td></tr>
+            <tr><td>背景虚化观感</td><td>可辨认窗框</td><td>窗框合并成条状</td></tr>
+          </tbody>
+        </table>
+        <p>可以被反驳的地方在于：对照组只用了两档焦段，中间 105mm 没拍，所以“压缩感在 105mm 到 131mm 之间是否突然增强”无法从这批图里确认。要下结论，得补 105mm 同机位。</p>
+
+        <h3>说法差异：官方图注与读者理解的落点不同</h3>
+        <p>11 月 6 日那组发布时，图注写的是“自然窗光为主”，评论区有读者根据发丝高光判断主体右侧补过一盏灯。两种说法都指向同一张图，差别在于对“自然光”的定义。按 11 月 3 日修订说明里的一句话——“右后侧白纱帘反光板”——实际是窗光加一块反光板，不算纯自然光。这是事实层与转述层的分歧，不是谁记错。</p>
+        <blockquote>“第 12 张的瞳孔里能看到窗格形状，说明主光是窗，不是灯。”<cite>——评论区 11 月 6 日留言，可用于核对但未经验证</cite></blockquote>
+
+        <h3>可核对结构：判断一组图值不值得细看的三个检查点</h3>
+        <ol>
+          <li><b>看发丝边缘是否与背景分离。</b>131mm 压缩后背景更糊，若边缘仍清楚，说明轮廓光位置对；11 月 6 日组第 7、9、12 张符合。</li>
+          <li><b>看背景色块是否出现断层。</b>窗棂组第 20 张背景左侧有两道硬边，是纱帘褶皱造成的，属于布景问题而非镜头问题。</li>
+          <li><b>看手部与面部是否在同一清晰平面。</b>深绿背景组第 15 张手部略软，按拍摄说明是光圈开到了 f/2，景深浅于脸到手的距离。</li>
+        </ol>
+        <p>这三条都能在图里直接查到，不用依赖解说。若三条中有两条不成立，这组图的完成度就要打折扣。</p>
+      </section>
+
+      <section class="section" id="guide">
+        <div class="section-head">
+          <h2>观看指南：从编号到对照的六步</h2>
+          <span class="tag">操作路径</span>
+        </div>
+        <p class="section-intro">九组图分散在不同日期，文件名里带了组号与修订号。按下面的顺序看，能少走回头路。</p>
+        <ol class="steps">
+          <li><b>先认文件名结构</b>形如 <code>131mm-s03-r1</code>，s 后是组号，r 后是修订次数。r2 表示修过水印或重新压图。</li>
+          <li><b>再锁定光线类型</b>窗光组看发丝，棚拍组看肩线，街拍组看地面反光。三种光线的判断点不通用。</li>
+          <li><b>打开 85mm 对照页</b>10 月 31 日那组与灰蓝针织衫组同造型，先看对照再看主组，脸型变化会更明显。</li>
+          <li><b>核对修订说明</b>11 月 3 日的水印修正只影响第 4 组，其余组别文件名没变，不必重新下载。</li>
+          <li><b>看花絮与废片</b>废片通常标了过曝或失焦原因，比成片更能看出拍摄现场的限制。</li>
+          <li><b>回看更新记录</b>发布日期的先后会影响你对“风格演进”的判断，把日期和组号对一遍再下结论。</li>
+        </ol>
+      </section>
+
+      <section class="section" id="compare">
+        <div class="section-head">
+          <h2>对照面板：原版与修正版怎么选</h2>
+          <span class="tag">版本差异</span>
+        </div>
+        <div class="compare">
+          <div class="ok">
+            <h4>选修正版 r2 的情况</h4>
+            <ul>
+              <li>在意水印位置是否压到肩线和发梢</li>
+              <li>需要统一尺寸，修正版按 2400px 长边重压</li>
+              <li>要对比第 4 组前后两版的色温差异</li>
+            </ul>
+          </div>
+          <div class="no">
+            <h4>保留原版 r1 的情况</h4>
+            <ul>
+              <li>研究原始压图锐度，r2 有二次压缩</li>
+              <li>核对 10 月 24 日首发的原始文件名</li>
+              <li>原版水印位置本身是拍摄现场记录的一部分</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="rank">
+        <div class="section-head">
+          <h2>套图榜单：按完成度排序</h2>
+          <span class="tag">九组横向</span>
+        </div>
+        <p class="section-intro">排序依据是三点：光线是否稳定、构图是否成套、修订是否干净。分数为编辑手记中的相对值，不是平台评分。</p>
+        <ol class="rank">
+          <li><span class="r-name">秋日窗棂 · 第二组</span><span class="r-score">完成度 9.2 / 38 张</span></li>
+          <li><span class="r-name">灰蓝针织衫 · 补拍</span><span class="r-score">完成度 8.9 / 52 张</span></li>
+          <li><span class="r-name">雨后街拍反光地面组</span><span class="r-score">完成度 8.6 / 46 张</span></li>
+          <li><span class="r-name">深绿背景轮廓光组</span><span class="r-score">完成度 8.4 / 44 张</span></li>
+          <li><span class="r-name">秋日窗棂 · 第一组</span><span class="r-score">完成度 8.1 / 41 张</span></li>
+          <li><span class="r-name">白墙前景特写组</span><span class="r-score">完成度 7.8 / 36 张</span></li>
+        </ol>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="section-head">
+          <h2>常见问题</h2>
+          <span class="tag">FAQ</span>
+        </div>
+        <details>
+          <summary>131mm 写真的“131”指镜头焦段还是拍摄距离？</summary>
+          <p>131 指镜头标注焦距，接近 135mm 定焦的实际读数，不是拍摄距离。这批图里人物到镜头多在 3 米上下，街拍组最远约 8 米，与焦段是两回事。</p>
+        </details>
+        <details>
+          <summary>秋日窗棂两组之间有什么可核对的差别？</summary>
+          <p>第一组 10 月 24 日发布 41 张，纱帘挂在左侧，光从右后方来；第二组 11 月 6 日发布 38 张，纱帘改成斜挂，光位右移约 30 度，横构图从 9 张增加到 14 张。</p>
+        </details>
+        <details>
+          <summary>水印修正版会不会损失画质？</summary>
+          <p>11 月 3 日那次修正是重新压图，长边 2400px，二次压缩会略微降低锐度。若只做观看看不出差别，做放大比对能看出细节边缘变软。</p>
+        </details>
+        <details>
+          <summary>灰蓝针织衫为什么说是“补拍”？</summary>
+          <p>10 月 29 日主组发布后，11 月 1 日补拍了背影走位和一组近景，52 张是主组加补拍合计，文件名统一归到 s02 系列。</p>
+        </details>
+        <details>
+          <summary>85mm 与 131mm 对照组的拍摄条件是否一致？</summary>
+          <p>同机位、同造型、同人物距离，先拍 85mm 再换 131mm。光圈保持一致，但换焦段后构图边界有微调，所以画幅占比的比较是近似值。</p>
+        </details>
+        <details>
+          <summary>在哪里能看到花絮和废片？</summary>
+          <p>花絮归在「花絮与废片」分类，共 17 张，分散在窗棂第二组 3 张、街拍组 5 张、其余组各 1 至 2 张。废片标注了过曝或失焦原因。</p>
+        </details>
+      </section>
+
+      <section class="section" id="comments">
+        <div class="section-head">
+          <h2>读者评论</h2>
+          <span class="tag">真实语气摘选</span>
+        </div>
+        <div class="comment">
+          <div class="comment-head"><span class="avatar">林</span><b>林间小径</b><time>11 月 6 日 21:40</time></div>
+          <p>第二组第 12 张瞳孔里的窗格很清楚地说明主光是窗，不是补光灯。但第 20 张背景左侧那两道硬边有点出戏，如果是纱帘褶皱，布景应该再捋一遍。</p>
+        </div>
+        <div class="comment">
+          <div class="comment-head"><span class="avatar">纸</span><b>纸飞机不飞</b><time>11 月 5 日 14:02</time></div>
+          <p>比较下来的话，131mm 的压缩确实让脸型收得明显，可 85mm 那张更自然一点。审美这事见仁见智，至少对照组说明写得很实在。</p>
+        </div>
+        <div class="comment">
+          <div class="comment-head"><span class="avatar">周</span><b>周三下午茶</b><time>11 月 3 日 18:25</time></div>
+          <p>水印修正把第 4 组肩线那块去掉了，观感好不少。不过二次压缩之后细看发梢确实有点糊，不知道能不能出个不压的版本。</p>
+        </div>
+        <div class="comment">
+          <div class="comment-head"><span class="avatar">雾</span><b>雾里看灯</b><time>11 月 1 日 09:17</time></div>
+          <p>灰蓝针织衫那组 52 张里，我觉得背影走位比正面更有意思，针织纹理在逆光下能看出一层绒毛。主组反而有点平。</p>
+        </div>
+        <div class="comment">
+          <div class="comment-head"><span class="avatar">南</span><b>南墙根</b><time>10 月 30 日 22:11</time></div>
+          <p>不太理解为什么深绿背景组要把光圈开到 f/2，第 15 张手明显软了。景深浅不是问题，问题是不该在七分身里放任手离开清晰平面。</p>
+        </div>
+        <div class="comment">
+          <div class="comment-head"><span class="avatar">早</span><b>早班车</b><time>10 月 26 日 07:55</time></div>
+          <p>第一组那张过曝废片留着其实挺有用的，能看出窗光在下午三点后会强到什么程度。成片里反而看不到这个边界。</p>
+        </div>
+      </section>
+
+      <section class="section" id="news">
+        <div class="section-head">
+          <h2>相关资讯</h2>
+          <span class="tag">周边动态</span>
+        </div>
+        <div class="news-grid">
+          <div class="news-item">
+            <time datetime="2026-11-07">11 月 7 日</time>
+            <a href="/#deep">135mm 定焦与 131mm 读数的差异说明</a>
+            <p>镜头标注与 EXIF 读数常差几毫米，对照组的 EXIF 截图可核对。</p>
+          </div>
+          <div class="news-item">
+            <time datetime="2026-11-04">11 月 4 日</time>
+            <a href="/#latest">窗光人像拍摄时段参考表更新</a>
+            <p>按 10 月 24 日与 11 月 6 日两组的拍摄时间，补了下午光位变化。</p>
+          </div>
+          <div class="news-item">
+            <time datetime="2026-11-02">11 月 2 日</time>
+            <a href="/#guide">套图文件命名规范调整为 s 加两位组号</a>
+            <p>旧文件 s4 与新文件 s04 并存，索引页做了映射。</p>
+          </div>
+          <div class="news-item">
+            <time datetime="2026-10-27">10 月 27 日</time>
+            <a href="/#featured">深绿背景色号确认：接近 RAL 6012</a>
+            <p>布景记录写明色卡编号，与成片偏色无关。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reco">
+        <div class="section-head">
+          <h2>相关推荐</h2>
+          <span class="tag">延伸条目</span>
+        </div>
+        <div class="reco-tags">
+          <a href="/#featured">窗棂侧逆光套图</a>
+          <a href="/#featured">灰蓝针织衫补拍</a>
+          <a href="/#deep">85mm 与 131mm 对照</a>
+          <a href="/#guide">水印修正版选择</a>
+          <a href="/#guide">套图编号规则</a>
+          <a href="/#channels">胶片颗粒调色</a>
+          <a href="/#rank">套图完成度榜单</a>
+          <a href="/#faq">花絮与废片</a>
+        </div>
+        <div class="quote-card" style="margin-top:18px;">
+          <p>“拍窗光那天我最在意的不是焦段，是纱帘褶皱会不会在背景上留下硬边。结果还是留了。”</p>
+          <cite>——来自 11 月 6 日拍摄现场的布景手记摘录</cite>
+        </div>
+      </section>
+
+    </div>
+
+    <aside class="side-r" aria-label="侧栏">
+      <div class="panel">
+        <h3>更新速览</h3>
+        <ul class="updates" style="font-size:13px;">
+          <li style="grid-template-columns:1fr;"><time datetime="2026-11-06">11 月 6 日</time> 窗棂第二组 38 张</li>
+          <li style="grid-template-columns:1fr;"><time datetime="2026-11-03">11 月 3 日</time> 第 4 组水印修正</li>
+          <li style="grid-template-columns:1fr;"><time datetime="2026-11-01">11 月 1 日</time> 针织衫补拍 52 张</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>拍摄参数备忘</h3>
+        <p style="font-size:13px;color:var(--ink-soft);margin:0;">窗棂组：f/2.2、1/250s、ISO 400<br>棚拍组：f/2.8、1/160s、ISO 200<br>街拍组：f/2.0、1/125s、ISO 800</p>
+      </div>
+      <div class="panel">
+        <h3>条目速查</h3>
+        <div class="side-tags">
+          <a href="/#latest">131mm-s02-r1</a>
+          <a href="/#latest">131mm-s04-r2</a>
+          <a href="/#featured">窗棂第二组</a>
+          <a href="/#deep">对照组 26 张</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="f-brand">
+          <svg viewBox="0 0 64 64" role="img" aria-label="页尾品牌图形">
+            <rect width="64" height="64" rx="14" fill="#5c2a45"/>
+            <circle cx="32" cy="25" r="11" fill="none" stroke="#e8b5c8" stroke-width="2.6"/>
+            <circle cx="32" cy="25" r="5.5" fill="none" stroke="#c98b4b" stroke-width="2"/>
+            <path d="M17 53c4.4-9.6 10.4-14 15-14s10.6 4.4 15 14" fill="none" stroke="#e8b5c8" stroke-width="2.6" stroke-linecap="round"/>
+          </svg>
+          <strong>王雨纯 131mm 写真</strong>
+        </div>
+        <p style="font-size:13px;color:#b9abc4;max-width:24em;">按焦段与光线归档的中长焦人像图集档案，附拍摄参数、修订记录与版本对照。</p>
+        <p class="f-note">页内条目、日期与评论均为示例数据，用于展示归档结构；拍摄参数与文件名规则按示例生成，非真实发布记录。</p>
+      </div>
+      <div>
+        <h4>图集栏目</h4>
+        <ul>
+          <li><a href="/#featured">精选图集</a></li>
+          <li><a href="/#latest">更新记录</a></li>
+          <li><a href="/#channels">分类入口</a></li>
+          <li><a href="/#rank">套图榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>阅读栏目</h4>
+        <ul>
+          <li><a href="/#deep">拍摄解析</a></li>
+          <li><a href="/#guide">观看指南</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#comments">读者评论</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>延伸条目</h4>
+        <ul>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#reco">相关推荐</a></li>
+          <li><a href="/#overview">领域概览</a></li>
+          <li><a href="/#top">返回顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 王雨纯 131mm 写真 图集档案 · 内容为示例整理</span>
+      <span>页面更新时间：2026 年 11 月 7 日（对应 11 月 6 日窗棂第二组上线与 11 月 3 日水印修正）</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var menuBtn = document.getElementById('menuBtn');
+  var mainNav = document.getElementById('mainNav');
+  var backTop = document.getElementById('backTop');
+  var searchInput = document.getElementById('siteSearch');
+  var searchFeedback = document.getElementById('searchFeedback');
+
+  if (menuBtn && mainNav) {
+    menuBtn.addEventListener('click', function(){
+      var open = mainNav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    mainNav.addEventListener('click', function(e){
+      if (e.target.tagName === 'A' && window.innerWidth <= 760) {
+        mainNav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', function(){
+    if (window.scrollY > 400) {
+      backTop.classList.add('show');
+    } else {
+      backTop.classList.remove('show');
+    }
+  }, {passive:true});
+
+  backTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  // 滚动高亮侧栏
+  var sideLinks = Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
+  var sections = sideLinks.map(function(a){
+    var id = a.getAttribute('href').replace('/#','');
+    return document.getElementById(id);
+  }).filter(Boolean);
+
+  function highlight(){
+    var pos = window.scrollY + 160;
+    var current = null;
+    sections.forEach(function(sec){
+      if (sec.offsetTop <= pos) current = sec;
+    });
+    sideLinks.forEach(function(a){
+      var id = a.getAttribute('href').replace('/#','');
+      if (current && current.id === id) {
+        a.classList.add('active');
+      } else {
+        a.classList.remove('active');
+      }
+    });
+  }
+  window.addEventListener('scroll', highlight, {passive:true});
+  window.addEventListener('resize', highlight);
+  highlight();
+
+  // 本地搜索
+  var indexData = [];
+  document.querySelectorAll('main [id]').forEach(function(sec){
+    var h = sec.querySelector('h2, h1');
+    if (h) indexData.push({id: sec.id, title: h.textContent.trim(), text: sec.textContent.replace(/\s+/g,' ').slice(0, 400)});
+  });
+  document.querySelectorAll('.card-body h3, .news-item a, .rank .r-name').forEach(function(el){
+    var target = el.closest('[id]');
+    if (target) {
+      indexData.push({id: target.id, title: el.textContent.trim(), text: el.textContent.trim()});
+    }
+  });
+
+  searchInput.addEventListener('input', function(){
+    var q = searchInput.value.trim();
+    if (!q) {
+      searchFeedback.classList.remove('show');
+      searchFeedback.innerHTML = '';
+      return;
+    }
+    var results = indexData.filter(function(item){
+      return item.title.indexOf(q) > -1 || item.text.indexOf(q) > -1;
+    }).slice(0, 5);
+    searchFeedback.classList.add('show');
+    if (results.length === 0) {
+      searchFeedback.innerHTML = '<strong>没有匹配结果</strong><br>换个关键词试试，比如“窗棂”“水印修正”“针织衫”。';
+    } else {
+      searchFeedback.innerHTML = '找到 ' + results.length + ' 条：<br>' + results.map(function(r){
+        return '<a href="/#' + r.id + '">' + r.title + '</a>';
+      }).join('<br>');
+    }
+  });
+
+  // 点击反馈内链接收起
+  searchFeedback.addEventListener('click', function(e){
+    if (e.target.tagName === 'A') {
+      searchFeedback.classList.remove('show');
+      searchInput.value = '';
+    }
+  });
+
+  document.addEventListener('click', function(e){
+    if (!searchFeedback.contains(e.target) && e.target !== searchInput) {
+      searchFeedback.classList.remove('show');
+    }
+  });
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "王雨纯 131mm 写真",
+  "description": "王雨纯 131mm 写真图集整理，收录主题套图的发布记录、拍摄风格解析、观看体验与常见问题。",
+  "inLanguage": "zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "131mm 写真的“131”指镜头焦段还是拍摄距离？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "131 指镜头标注焦距，接近 135mm 定焦的实际读数，不是拍摄距离。这批图里人物到镜头多在 3 米上下，街拍组最远约 8 米。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "秋日窗棂两组之间有什么可核对的差别？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "第一组 10 月 24 日发布 41 张，纱帘挂在左侧；第二组 11 月 6 日发布 38 张，纱帘斜挂，光位右移约 30 度，横构图从 9 张增加到 14 张。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "水印修正版会不会损失画质？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "11 月 3 日修正是重新压图，长边 2400px，二次压缩会略微降低锐度。放大比对可见细节边缘变软。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "灰蓝针织衫为什么说是“补拍”？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "10 月 29 日主组发布后，11 月 1 日补拍背影走位和近景，52 张为主组加补拍合计。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "85mm 与 131mm 对照组的拍摄条件是否一致？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "同机位、同造型、同人物距离，先拍 85mm 再换 131mm。光圈一致，换焦段后构图边界有微调，画幅占比比较为近似值。"
+      }
+    }
+  ]
+}
+</script>
+
+</body>
+</html>
